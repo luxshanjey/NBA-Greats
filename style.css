@@ -1,0 +1,49 @@
+h1,p{
+    text-align: center;
+}
+
+#homenav {
+    
+    font-size: 1em;
+    margin-left:50%;
+    margin-right:0;
+    font-weight: none;
+    text-decoration: none;
+    color: #123456;
+    display: inline-block;
+    padding: 0 0;
+    
+}
+
+ul li {
+    color:orangered
+}
+
+ol > li {
+    color:red
+}
+
+
+.link {
+    /* font-weight: bold;
+    color: #FF0000; */
+    font-size: 25px
+    text-align center;
+   
+    
+}
+.link:hover { color: #00FF; }
+
+a::before{
+    content: "\2192 ";
+    margin-left:40%;
+}
+
+a::after{
+    content: "\2190"
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}

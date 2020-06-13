@@ -1,0 +1,8 @@
+%link{
+    font-family: sans-serif;
+    font-size: 20px
+}
+
+.link{
+    @extend %link
+}
